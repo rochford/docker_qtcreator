@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y libxcb-keysyms1-dev libxcb-image0-dev \
     xauth build-essential mesa-common-dev libglu1-mesa-dev libxkbcommon-dev \
     libxcb-xkb-dev libxslt1-dev libgstreamer-plugins-base0.10-dev libx11-xcb1 \
     libegl1-mesa \
-    wget git
+    wget git cmake
 
 # Add user to image - you will need to change the user name (linux 'id' command)
 RUN groupadd -g 1000 rochford
